@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<style>
+    body{
+        background-size: cover;
+        margin: auto;
+        overflow: inherit;
+
+
+    }
+
+
+
+    #portfolio{
+        /*border: 2px solid blue;*/
+        background-color: beige;
+        position: relative;
+        height: 716px;
+
+    }
+    #item{
+        display: flex;
+        justify-content: center;
+    }
+    #contacts{
+        text-align: center;
+        background-color: aqua;
+        position: relative;
+        display: grid;
+        /*border: 2px solid blue;*/
+
+    }
+    a{
+        text-decoration: none;
+        padding: 4px;
+        float: right;
+        margin: 3px 12px;
+        font-family: 'Staatliches', cursive;
+        color: beige;
+    }
+    ul{
+        height: 33px;
+
+    }
+    .navigation{
+        background-color: black;
+        display: flex;
+        height: 60px;
+        border: 1px solid transparent;
+        flex-direction: row-reverse;
+
+    }
+    #header{
+        height: 716px;
+        background-image: url(bg.jpg);
+        color: beige;
+        display: block;
+        background-size: cover;
+
+
+    }
+    #home{
+        border: 1px solid orange;
+        border-top: 9px;
+        border-bottom: thin;
+        background-color: gray;
+    }
+    #name{
+        font-family: 'Staatliches', cursive;
+        font-size: 6em;
+        margin: 265px 10px;
+    }
+    #about{
+        /*border: 2px solid orange;*/
+        background-color: beige;
+        position: relative;
+        height: 716px;
+        /*display: grid;*/
+
+    }
+
+   #into{
+        /*display: inline;*/
+       font-family: 'Staatliches', cursive;
+       font-size: 1.5em;
+       margin: 9px;
+       clear: right;
+       padding: 176px 0px;
+
+    }
+    .pic{
+        float: left;
+        margin: 5px 133px;
+    }
+    .aboutme{
+
+        text-align: center;
+        background-color: black;
+        color: beige;
+        font-family: 'Staatliches', cursive;
+    }
+    #footer{
+        background-color: chocolate;
+        display: grid;
+        font-family: 'Staatliches', cursive;
+        text-align: center;
+        color: beige;
+    }
+    .port{
+        text-align: center;
+        background-color: black;
+        color: beige;
+        font-family: 'Staatliches', cursive;
+    }
+    .project1{
+        /*float: left;*/
+        padding: 2px;
+
+    }
+    .project2{
+        /*float: right;*/
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+
+
+</style>
+<body>
+
+<header id="header">
+    <nav class="navigation">
+        <ul>
+            <a href="" id="home">HOME</a>
+            <a href="#about">ABOUT ME</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contacts">CONTACTS</a>
+
+        </ul>
+    </nav>
+    <h1 id="name">Pravesh Student</h1>
+</header>
+
+<section id="about">
+    <h2 class="aboutme">About me</h2>
+    <img class="pic" src="pic.jpg" alt="me" height="513" width="244" >
+    <p id="into">Iam a motivational, adaptive, and curious student at DELHI
+        TECHNOLOGICAL UNIVERSITY.<br> Over the next year, I am
+        looking forward to finding an internship, developing my
+        presentation skills, and learning about different industries.<br> I
+        sincerely hope we can connect soon and appreciate your time
+        and consideration. Thank you for taking the time to review my
+        resume</p>
+</section>
+
+<section id="portfolio">
+    <h2 class="port">Portfolio</h2>
+    <div id="item">
+        <img class="project1" src="project1.png" alt="portfolio" height="364" width="537" >
+        <!--    <h2>Flashcards</h2>-->
+        <img class="project2" src="project2.png" alt="flash" height="357" width="526">
+        <!--    <h2>Virtual piano</h2>-->
+    </div>
+
+
+</section>
+
+<section id="contacts">
+    <h2 >Contacts</h2>
+    <p>Mail:-<b>engp0711@gmail.com</b></p>
+    <p>Mobile:- <b>9971026604</b></p>
+    <div id="logo">
+        <a href="https://github.com/pravesh0711"><img src="github.svg" alt="git"></a>
+        <a href="https://www.instagram.com/pravesh_0710/"> <img src="instagram%201.svg"> </a>
+        <a href="https://www.codechef.com/users/pravesh_193"><img src="twitter.svg"></a>
+<!--        <a href=""><img src=""></a>-->
+
+    </div>
+
+</section>
+<footer id="footer">
+    <p>Pravesh <br>2021</p>
+<!--    <p>2021</p>-->
+</footer>
+
+
+
+</body>
+</html>
